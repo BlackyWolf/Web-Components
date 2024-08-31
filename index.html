@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Blacky Wolf Web Components</title>
+
+        <link rel="stylesheet" href="./index.css">
+
+        <script type="module">
+            import { initializeComponents } from './index.js';
+
+            initializeComponents();
+        </script>
+    </head>
+    <body>
+        <nav>
+            <app-link href="/">Home</app-link>
+            <app-link href="/about">About</app-link>
+            <app-link href="/me">Me</app-link>
+            <app-link href="/me/status">Status</app-link>
+            <app-link href="/contact">Contact</app-link>
+        </nav>
+
+        <app-router></app-router>
+    </body>
+</html>

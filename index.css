@@ -1,0 +1,13 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+app-link {
+    color: #1949f6;
+    text-decoration: underline;
+}
+
+.active-link {
+    font-weight: 700;
+    text-decoration: none;
+}
